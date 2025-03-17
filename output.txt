@@ -1,47 +1,56 @@
-Docusign Envelope ID: 2DF6B950-B7E9-45D2-904B-A709E13C86A0
+aan ANNUAL FINANCIAL STATEMENT OF FINANCIAL
+ontuita REPORT PERFORMANCE PERFORMANCE
+2006 STATEMENT OF MOVEMENTS IN
 
-FINANCIAL STATEMENTS / NGA TAUAKI WHAKAHAERA PUTEA
+EQUITY
 
-CONSOLIDATED INCOME STATEMENT
+FINANCIAL STATEMENTS: STATEMENT OF FINANCIAL
+PERFORMANCE / MOVEMENTS IN EQUITY
 
-For the year ended Note 30 June 2024 30 June 2023
+StemeeTPrMArrUaNNNSiasatectoneene /**FETIVNENRTUNRELALLAINALon soeopiQBhldeoneeoriQaQRrryMMMAriNMNREsial#ch O*O-OrrIQERAMUMENAEELALSccae OTFIINMRPFPIINRELLAENGLISaone weep) MBFRHEMAARINGLLLALL Se ony cgrpFPMMHNTUMEMOEELILAEOALdeLicemeenngtUNPFINMNRINERELLUBLLGHdee cenegyetPFHLIQRMMAIBERI HELI ALee oe cee (qMFITAPINENMISHRERLL doemeemapiqg(ITHPIMERELLUBELLAEAAocoee eapiqurriMMIRHMLARALLe coee seepyereynnMHPIMMBLUMELIZAALcoeom ceqeprmnriHMASiasstbooee yerigpiseranrs soy THUHerPnPriarnaneriansie
 
-In thousands of New Zealand dollars
+STATEMENT OF FINANCIAL PERFORMANCE NOTE GROUP COMPANY
+FOR THE YEAR ENDED 31 DECEMBER 2006 2006 2005 2006 2005
+$’000 $000 $‘000 . $000
+Operating revenue 1 39,353 31,319 5,103 2,668
+Operating expenses 2 36,955 28,724 3,505 2,365
+Operating surphe wokgne tonation secs mutt nin ena ni mani 7308 a ; Sopa se nanan 309
+Taxation 3a (873) (1,005) (548) (151)
+— carps ey theyeat sm ss ems “nnn Tes 2 es Sop “F050 aa’
 
-Revenue 2 204,341 234,195
+ccerertruannereensstestnn cee nneop/HtNUONriHHOEOLt dene cocncons yenenORll Modocee sonemyanarriienensdtite secece ayurrrivneeSHBEDY eLittec! lencece sorpraqeneasenesiasaiéccecnen =0e190r1 IVERUSIESIZBLAI Idoe"=" °°" YOPPIVEGEPIEERLIULLIZone sae" “PPPITNEPIEDRISNOELI Idab nose SOM*PPPINIRPFIBNELIBOLI4dee aoe sone S*PIVEPINBEDY#ZBU0BItTéLLton oo uP" “OOINYOPPITEREIIBOLI tego none wou YOFINEIIVESHORDIAERLI Iddee cone “OPIVIPFINERPIBORELAESEDLLG® eae woe°tINEPPFHONE!|128ELIELIGLIULIocaeaters a2" sePiersiseuete®
 
-Cost of sales (91,952) (98,435)
-Gross profit 112,389 135,760
+Net surplus comprises:
 
-Other income 3 5,587 12,177
+Parent interest 1,525 1,597 1,050 152
+Minority interest - (7) - -
+Earnings per share. }
 
-Marketing expenses (24,331) (30,509)
-Selling and distribution expenses (58,842) (54,484)
-Administration and other operating expenses 5 (34,900) (36,140)
-Software development expenses (7,245) (2,884)
-Operating (loss)/profit before financing costs (7,342) 23,920
+ordinary 10.87 12.32
 
-Finance income 14 347 314
+diluted 10.87 12.32
 
-Finance expenses 14 (9,800) (10,384)
-Net finance expenses (9,453) (10,070)
-Share of loss of equity accounted associates 24 (904) (844)
-Impairment and other assets write-downs 22 (64,190) -
+tates conse sovsvgenrivvenantanenarasecees oeeeees reverrinenanenisadtbeteccstoreces yyeuriqners inenenittssstlonceoees sNQBRPIHOROEOLLLIOZGL aP* S*O*OLINYERPITEDEDI ABLE tone =tO=""" NUFPIEDFIBELIBLULIZoe seven HINUEPIVERIIDELLIEOLI ton ace eoceppI™NOFIIBEREIOELIZ&one ceomqors sy/HOIHIVEDEDIEELIASGBIonce anu soppy ifBIBEBIEDELIL4dédous ooomen opsqyaFIMERIOHEBI IdELIGene sososenqepyyqurIBRLABBIBEDEULetions cececmepe syORPIVEDHIBEERIIABLI dececnce nen cupFINEBPOIOEORII2¢ELItemome soepp! tP1IEREIORINONLedsatte
 
-(Loss)/profit before income tax (81,889) 13,006
+Earnings per share is calculated by dividing the net surplus for the year by the weighted average number of shares on issue (IAS33), being 14,031,667
+shares (2005 - 12,899,753).
 
-Income tax benefit/(expense) 7 4,501 (1,944)
-(Loss)/profit for the year (77,388) 11,062
+STATEMENT OF MOVEMENTS IN EQUITY NOTE GROUP COMPANY
+FOR THE YEAR ENDED 31 DECEMBER 2006 2006 2005 2006 2005
+$000 $000 $’000 $000
+Net surplus for the year 1,525 1,590 1,050 152
+Foreign currency translation reserve rmovernent 4b (121) (17) - -
+Total recognised revenues andexpenses 1,404 1,573 1,050 “152
+Shares issued - dividend reinvestment plan 4a 141 101 141 101
+Shares issued — acquisitions 4a - 122 - 122
+Shares issued - asset purchases 885 - 885 -
+Shares issued — subsequent public offerings 11,464 - 11,464 -
+Shares issued - executive share scheme 18 6 - 6 -
+Treasury stock acquired (54) - - -
+Dividends Pt ee eer ee en ve (649) (929) coe (649) (529)
+Total movements in equity for the year 13,197 1,267 12,897 (154)
+Total equity at beginning of year 16,911 15,644 14,541 14,695
 
-Earnings per share:
+14, 34)
 
-Basic earnings per share (NZ cents) 10 (110.33) 15.84
-Diluted earnings per share (NZ cents) 10 (110.33) 15.66
-EBITDA pre-impairment * 8 4,539 30,623
-
-* EBITDA pre-impairment is a non-GAAP measure. We monitor this as a key performance indicator and believe
-
-it assists investors in assessing the performance of the core operations of our business. A reconciliation of
-EBITDA pre-impairment to profit before tax is provided in note 8.
-
-The notes on pages 9 to 41 are an integral part of these financial statements
+a
