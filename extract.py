@@ -1,6 +1,6 @@
 from pdf2image import convert_from_path
-import numpy as np
 import easyocr
+import numpy as np
 import pdfplumber
 
 def extract_ocr(pdf_path, start=1, end=None):
@@ -30,7 +30,7 @@ def extract_text(pdf_path, start=1, end=None):
             else:
                 non_text_count = 0
             
-            # If 5 consecutive pages have no text, raise an error
+            # If 3 consecutive pages have no text, raise an error
             if non_text_count >= 3:
                 raise ValueError(f"No text extracted from 3 consecutive pages starting from page {i - 2}")
             all_text.append(extracted_text)
