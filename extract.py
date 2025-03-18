@@ -3,7 +3,7 @@ import numpy as np
 import easyocr
 import pdfplumber
 
-def parse_ocr(pdf_path, start=1, end=None):
+def extract_ocr(pdf_path, start=1, end=None):
     images = convert_from_path(pdf_path, dpi=300, first_page=start, last_page=end)
     reader = easyocr.Reader(['en'], gpu=True)
     
@@ -18,7 +18,7 @@ def parse_ocr(pdf_path, start=1, end=None):
     
     return "\n".join(all_text)
 
-def parse_text(pdf_path, start=1, end=None):
+def extract_text(pdf_path, start=1, end=None):
     all_text = []
     non_text_count = 0
     with pdfplumber.open(pdf_path) as pdf:
@@ -36,10 +36,10 @@ def parse_text(pdf_path, start=1, end=None):
             all_text.append(extracted_text)
     return "\n".join(all_text)
 
-def parse(pdf_path, start=1, end=None):
+def extract(pdf_path, start=1, end=None):
     try:
-        return parse_text(pdf_path, start, end)
+        return extract_text(pdf_path, start, end)
     except ValueError as e:
         print(f"{e}. Falling back to OCR.")
         # If scanned PDF, parse_ocr instead
-        return parse_ocr(pdf_path, start, end)
+        return extract_ocr(pdf_path, start, end)
