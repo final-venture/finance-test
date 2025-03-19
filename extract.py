@@ -2,6 +2,7 @@ from pdf2image import convert_from_path
 import easyocr
 import numpy as np
 import pdfplumber
+import os
 
 def extract_text(pdf_path, start=1, end=None):
     all_text = []
@@ -46,12 +47,17 @@ def try_extract(pdf_path, start=1, end=None):
         print(f"{e}. Falling back to OCR.")
         return extract_ocr(pdf_path, start, end)
 
-def extract(pdf_path, start=1, end=None):
+def extract_pages(pdf_path, start=1, end=None):
     extracted_text = try_extract(pdf_path, start, end)
-    with open('output.txt', 'w', encoding='utf-8') as file:
+    filebasename = os.path.splitext(os.path.basename(pdf_path))[0]
+    output_filename = os.path.join(os.path.dirname(pdf_path), f"{filebasename}.txt")
+    with open(output_filename, 'w', encoding='utf-8') as file:
         file.write(extracted_text)
-    print(f"Text extracted successfully and saved to output.txt")
+    print(f"Text extracted successfully and saved to {output_filename}")
 
 if __name__ == "__main__":
     pdf_path = "examples/cvt24.pdf"
-    extract(pdf_path, 4, 4)
+    start = 4
+    end = 4
+
+    extract_pages(pdf_path, start, end)
