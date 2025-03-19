@@ -19,9 +19,9 @@ def extract_text(pdf_path, start=1, end=None):
             else:
                 non_text_count = 0
             
-            # If 3 consecutive pages have no text, raise an error
-            if non_text_count >= 3:
-                raise ValueError(f"No text extracted from 3 consecutive pages starting from page {i - 2}")
+            # # If 3 consecutive pages have no text, raise an error
+            # if non_text_count >= 3:
+            #     raise ValueError(f"No text extracted from 3 consecutive pages starting from page {i - 1}")
             
             all_text.append(extracted_text)
 
@@ -48,12 +48,15 @@ def try_extract(pdf_path, start=1, end=None):
         return extract_ocr(pdf_path, start, end)
 
 def extract_pages(pdf_path, start=1, end=None):
-    extracted_text = try_extract(pdf_path, start, end)
+    extracted_text = extract_text(pdf_path, start, end) # no ocr for now, no ValueError
     filebasename = os.path.splitext(os.path.basename(pdf_path))[0]
-    output_filename = os.path.join(os.path.dirname(pdf_path), f"{filebasename}.txt")
-    with open(output_filename, 'w', encoding='utf-8') as file:
-        file.write(extracted_text)
-    print(f"Text extracted successfully and saved to {output_filename}")
+    file_path = os.path.join(os.path.dirname(pdf_path), f"{filebasename}.txt")
+    if os.path.exists(file_path):
+        print(f"File {file_path} already exists. Skipping text extraction.")
+    else:
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(extracted_text)
+        print(f"Text extracted successfully and saved to {file_path}")
 
 if __name__ == "__main__":
     pdf_path = "examples/cvt24.pdf"

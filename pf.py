@@ -58,10 +58,15 @@ def fetch_filing_attachments(filing, nzbn, base_dir="downloads"):
         doc_id = attachment["documentId"]
         doc_url = attachment["document"]["href"]
 
+        # Use the year as the filename
+        file_path = os.path.join(filing_dir, f"{year}.pdf")
+        
+        if os.path.exists(file_path):
+            print(f"File {file_path} already exists. Skipping download.")
+            continue
+
         response = requests.get(doc_url)
         if response.status_code == 200:
-            # Use the year from registrationDate as the filename
-            file_path = os.path.join(filing_dir, f"{year}.pdf")
             with open(file_path, "wb") as f:
                 f.write(response.content)
             print(f"Downloaded attachment {doc_id} to {file_path}")
