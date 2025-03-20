@@ -1,11 +1,13 @@
-import extract
-import pf
+# run fetch extract parse on all nzx listed companies, skipping operations for existing .pdf .txt
+
+import extpar
+import fetch
 import db
 import os
 import glob
 
 def get_fs_figures(nzbn):
-    pf.fetch_all_returns(nzbn)
+    fetch.fetch_all_returns(nzbn)
 
     download_dir = os.path.join("downloads", str(nzbn))
 
@@ -21,7 +23,7 @@ def get_fs_figures(nzbn):
     # extract text from all downloaded reports
     for pdf_path in pdf_files:
         print(f"Processing {pdf_path}...")
-        extract.extract_pages(pdf_path, 4, 8)
+        extpar.extract_pages(pdf_path, 4, 8)
         print(f"Finished processing {pdf_path}")
 
 if __name__ == "__main__":
