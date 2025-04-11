@@ -1,4 +1,5 @@
 from pdf2image import convert_from_path
+from google import genai
 import easyocr
 import numpy as np
 import pdfplumber
@@ -58,8 +59,10 @@ def extract_parse(pdf_path, start=1, end=None):
             file.write(extracted_text)
         print(f"Text extracted successfully and saved to {file_path}")
 
-def parse(txt_path):
-    with open("")
+def parse(txt_path=''):
+    file_path = os.path.join(txt_path, f"{year}.pdf")
+    with open("output.txt", "w") as file:
+        file.write(response)
 
 if __name__ == "__main__":
     pdf_path = "examples/cvt24.pdf"
